@@ -99,12 +99,6 @@ void down()
   glutPostRedisplay();
 }
 
-void jumpSettleDown()
-{
-  cubePosY -= cubeSpeedY * 4;
-  glutPostRedisplay();
-}
-
 void forward()
 {
   cubePosX += cubeSpeedX;
@@ -211,13 +205,9 @@ void reshape(GLsizei width, GLsizei height)
   glMatrixMode(GL_PROJECTION);
   glLoadIdentity();
   if (width >= height)
-  {
     gluOrtho2D(-1.0 * aspect, 1.0 * aspect, -1.0, 1.0);
-  }
   else
-  {
     gluOrtho2D(-1.0, 1.0, -1.0 / aspect, 1.0 / aspect);
-  }
 }
 
 /**************************************/

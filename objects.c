@@ -8,6 +8,10 @@
 
 #include "opengl_constants.h"
 
+/**************************************/
+/* Utility */
+/**************************************/
+
 float generateRandomPosition()
 {
   int sign = (rand() % (1 - (-1) + 1) + (-1));
@@ -181,7 +185,7 @@ void createStars(int total)
 
   for (int i = 0; i < total / 2; i++)
   {
-    glPointSize(4);
+    glPointSize(10);
     glBegin(GL_POINTS);
 
     glColor3f(WHITE_3F);
