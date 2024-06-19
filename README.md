@@ -2,7 +2,7 @@
 
 I like **Minecraft** biomes so much, and this projects is inspired by it.
 
-It contains mainly 3 biomes right now, **Plains**, **Maze**, **Desert**.
+It contains 3 biomes, **Plains**, **Maze**, **Desert**.
 
 ## Controls
 
@@ -22,18 +22,18 @@ To delete object file,
 make clean
 ```
 
-![menu](assets/menu.png)
+![menu](https://raw.githubusercontent.com/surajkareppagol/Assets/main/21%20-%20OpenGL-Biomes/menu.png)
 
 ## Rendered Output
 
 ### Plains
 
-![plains day](assets/plains_day.png)
+![plains day](https://raw.githubusercontent.com/surajkareppagol/Assets/main/21%20-%20OpenGL-Biomes/plains_day.png)
 
-![plains night](assets/plains_night.png)
+![plains night](https://raw.githubusercontent.com/surajkareppagol/Assets/main/21%20-%20OpenGL-Biomes/plains_night.png)
 
 ### Desert
 
-![desert day](assets/desert_day.png)
+![desert day](https://raw.githubusercontent.com/surajkareppagol/Assets/main/21%20-%20OpenGL-Biomes/desert_day.png)
 
-![desert night](assets/desert_night.png)
+![desert night](https://raw.githubusercontent.com/surajkareppagol/Assets/main/21%20-%20OpenGL-Biomes/desert_night.png)
